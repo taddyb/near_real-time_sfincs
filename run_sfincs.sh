@@ -43,7 +43,7 @@ if [ "$ENABLE_SERVERLESS" = true ]; then
 fi
 
 echo "Pulling image"
-docker pull deltares/sfincs-cpu:sfincs-v2.0.3-Cauberg
+docker pull deltares/sfincs-cpu:latest
 
 echo "Copying data"
 rm -rf /tmp/sfincs_temp/ && mkdir /tmp/sfincs_temp/
