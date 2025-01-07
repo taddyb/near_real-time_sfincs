@@ -17,7 +17,6 @@ build-backend = "hatchling.build"
 [project.optional-dependencies]
 jupyter = [
     "jupyterlab==3.6.7",
-    "contextily==1.6.2",
 ]
 
 [tool.hatch.dependencies]
